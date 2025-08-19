@@ -84,8 +84,11 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 Mov AL,74H
+
 MOV BL,69H
+
 ADD AL,BL
+
 HLT
 
 ## Output  
@@ -93,8 +96,11 @@ HLT
 
 ## Subtraction   of 8 bit numbers  ALP 
 Mov AL,74H
+
 MOV BL,69H
+
 SUB AL,BL
+
 HLT
 
 ## Output
@@ -102,10 +108,15 @@ HLT
 
 ## Multiplication alp
 org 100h
+
 Mov AL,74H
+
 MOV BL,69H
+
 MUL BL
+
 HLT
+
 ret
 
 ## Output  
@@ -114,8 +125,11 @@ ret
 
 ## Division alp 
 MOV AL,68H
+
 MOV BL,18H
+
 DIV BL
+
 HLT
 
 ## Output  
@@ -123,8 +137,11 @@ HLT
 
 ## And of 8 bit numbers ALP
 MOV AL,33H
+
 MOV BL,44H
+
 AND AL,BL
+
 HLT
 
 ## Output
@@ -132,8 +149,11 @@ HLT
 
 ## OR of 8 bit numbers ALP
 MOV AL,45H
+
 MOV BL,66H
+
 OR AL,BL
+
 HLT
 
 ## Output
@@ -141,7 +161,9 @@ HLT
 
 ## NOT of 8 bit number ALP
 MOV AL,65H
+
 NOT AL
+
 HLT
 
 ## Output
@@ -149,8 +171,11 @@ HLT
 
 ## XOR of 8 bit number ALP
 MOV AL,66H
+
 MOV BL,77H
+
 XOR AL,BL
+
 HLT
 
 ## Output
